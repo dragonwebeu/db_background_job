@@ -1,0 +1,58 @@
+PATH
+  remote: .
+  specs:
+    db_background_job (0.1.0)
+      activerecord (>= 4.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (4.2.6)
+      activesupport (= 4.2.6)
+      builder (~> 3.1)
+    activerecord (4.2.6)
+      activemodel (= 4.2.6)
+      activesupport (= 4.2.6)
+      arel (~> 6.0)
+    activesupport (4.2.6)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    arel (6.0.4)
+    builder (3.2.4)
+    concurrent-ruby (1.2.3)
+    diff-lcs (1.5.1)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
+    json (1.8.6)
+    minitest (5.15.0)
+    rake (13.2.1)
+    rspec (3.13.0)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.2)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.3)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.1)
+    thread_safe (0.3.6)
+    tzinfo (1.2.11)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  db_background_job!
+  rake (~> 13.0)
+  rspec (~> 3.0)
+
+BUNDLED WITH
+   2.3.26
